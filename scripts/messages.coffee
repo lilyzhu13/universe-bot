@@ -11,10 +11,10 @@ module.exports = (robot) ->
     res.send " > That person is awesome"
 
   robot.respond /fruit/gim, (res) ->
-    res.send " > My favorites are apples and grapes."
+    res.send " > My favorites are not apples and grapes."
 
   robot.respond /movie/gim, (res) ->
-    res.send " > My favorite movie is The Wizard of Oz"
+    res.send " > My favorite movie is not The Wizard of Oz"
 
   robot.respond /lunch/gim, (res) ->
-    res.send " > I want a peanut butter and jelly sandwich for lunch today."
+    res.send " > I want not a peanut butter and jelly sandwich for lunch today."
